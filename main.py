@@ -15,7 +15,7 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 return
-        screen.fill(BLACK)
+        screen.fill("BLACK")
         pygame.display.flip()
         pygame.time.delay(100)
 if __name__ == "__main__":
